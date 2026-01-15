@@ -8,17 +8,21 @@
   <!-- CSS -->
   <link rel="stylesheet" href="style.css">
 
-  <!-- Google Fonts (puedes cambiar luego) -->
+  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
 
-  <!-- ================= HEADER / NAV ================= -->
+  <!-- ================= HEADER ================= -->
   <header class="header">
     <div class="container nav">
+
       <div class="logo">
-        <span>☀️🍓 Sunny Berry</span>
+        <img src="assets/logo-sunny-berry.png" alt="Sunny Berry">
       </div>
 
       <nav class="menu">
@@ -30,29 +34,22 @@
       </nav>
 
       <div class="nav-icons">
-        <span>🔍</span>
-        <span>🛒</span>
-        <span>👤</span>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-regular fa-user"></i>
       </div>
+
     </div>
   </header>
 
-  <!-- ================= HERO / CARRUSEL ================= -->
+  <!-- ================= HERO ================= -->
   <section class="hero">
-    <div class="hero-slide active">
-      <div class="hero-text">
-        <h1>Moda cómoda para cada día</h1>
-        <p>Ropa y accesorios para toda la familia</p>
-        <a href="#" class="btn-primary">Ver colección</a>
-      </div>
-    </div>
+    <img src="images/hero-1.jpg" alt="Sunny Berry moda familiar">
 
-    <div class="hero-slide">
-      <div class="hero-text">
-        <h1>Diseños que acompañan tu rutina</h1>
-        <p>Colores, comodidad y estilo real</p>
-        <a href="#" class="btn-primary">Descubrir</a>
-      </div>
+    <div class="hero-text">
+      <h1>Moda cómoda para cada día</h1>
+      <p>Ropa y accesorios para toda la familia</p>
+      <a href="#" class="btn-primary">Ver colección</a>
     </div>
   </section>
 
@@ -64,61 +61,82 @@
     <div class="category-card">Accesorios</div>
   </section>
 
-  <!-- ================= PRODUCTOS DESTACADOS ================= -->
+  <!-- ================= PRODUCTOS ================= -->
   <section class="products container">
     <h2>Listos para tu carrito</h2>
 
     <div class="product-grid">
+
       <div class="product-card">
-        <div class="product-img"></div>
+        <img src="images/product-1.jpg" alt="">
         <h3>Polera básica algodón</h3>
         <p>$14.990</p>
         <button>Agregar al carrito</button>
       </div>
 
       <div class="product-card">
-        <div class="product-img"></div>
+        <img src="images/product-2.jpg" alt="">
         <h3>Vestido casual</h3>
         <p>$24.990</p>
         <button>Agregar al carrito</button>
       </div>
 
       <div class="product-card">
-        <div class="product-img"></div>
+        <img src="images/product-3.jpg" alt="">
         <h3>Polerón familiar</h3>
         <p>$29.990</p>
         <button>Agregar al carrito</button>
       </div>
 
       <div class="product-card">
-        <div class="product-img"></div>
+        <img src="images/product-4.jpg" alt="">
         <h3>Mochila Sunny Berry</h3>
         <p>$19.990</p>
         <button>Agregar al carrito</button>
       </div>
 
       <div class="product-card">
-        <div class="product-img"></div>
+        <img src="images/product-5.jpg" alt="">
         <h3>Gorro algodón</h3>
         <p>$9.990</p>
         <button>Agregar al carrito</button>
       </div>
 
       <div class="product-card">
-        <div class="product-img"></div>
+        <img src="images/product-6.jpg" alt="">
         <h3>Chaqueta liviana</h3>
         <p>$34.990</p>
         <button>Agregar al carrito</button>
       </div>
-    </div>
-  </section>
 
-  <!-- ================= BLOQUE VALOR MARCA ================= -->
-  <section class="values">
-    <div class="container values-grid">
-      <div>🌱 Materiales cómodos</div>
-      <div>👨‍👩‍👧‍👦 Pensado para familias</div>
-      <div>☀️ Diseño alegre y funcional</div>
+      <div class="product-card">
+        <img src="images/product-7.jpg" alt="">
+        <h3>Jeans relaxed</h3>
+        <p>$27.990</p>
+        <button>Agregar al carrito</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/product-8.jpg" alt="">
+        <h3>Leggings comfort</h3>
+        <p>$15.990</p>
+        <button>Agregar al carrito</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/product-9.jpg" alt="">
+        <h3>Chaqueta kids</h3>
+        <p>$22.990</p>
+        <button>Agregar al carrito</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/product-10.jpg" alt="">
+        <h3>Bolso tote</h3>
+        <p>$18.990</p>
+        <button>Agregar al carrito</button>
+      </div>
+
     </div>
   </section>
 
@@ -140,22 +158,16 @@
       <summary>¿Qué medios de pago aceptan?</summary>
       <p>Tarjetas de crédito, débito y transferencias.</p>
     </details>
-
-    <details>
-      <summary>¿Cómo elijo mi talla?</summary>
-      <p>Contamos con guía de tallas en cada producto.</p>
-    </details>
   </section>
 
-  <!-- ================= FORMULARIO / MARKETING CLOUD ================= -->
+  <!-- ================= FORMULARIO ================= -->
   <section class="newsletter">
     <div class="container">
       <h2>Únete a Sunny Berry</h2>
       <p>Recibe novedades y ofertas especiales</p>
 
-      <!-- Aquí irá tu iframe de Salesforce Marketing Cloud -->
       <div class="iframe-placeholder">
-        <p>[Formulario Marketing Cloud aquí]</p>
+        <p>[Aquí irá el formulario de Marketing Cloud]</p>
       </div>
     </div>
   </section>
@@ -170,13 +182,6 @@
       </div>
 
       <div>
-        <h4>Información</h4>
-        <a href="#">Sobre nosotros</a>
-        <a href="#">Preguntas frecuentes</a>
-        <a href="#">Términos y condiciones</a>
-      </div>
-
-      <div>
         <h4>Síguenos</h4>
         <p>Instagram · Facebook · TikTok</p>
       </div>
@@ -184,7 +189,7 @@
       <div>
         <h4>Encuéntranos</h4>
         <div class="map-placeholder">
-          <p>[Mapa aquí]</p>
+          <img src="images/mapa.png" alt="Mapa Sunny Berry">
         </div>
       </div>
 
